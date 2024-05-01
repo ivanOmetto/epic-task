@@ -23,7 +23,7 @@ function card(tarefa) {
     `;
 
     const card = document.createElement("div");
-    card.innerHtml = content;
+    card.innerHTML = content;
 
     document.querySelector("#lista-tarefas").appendChild(card);
 
